@@ -1,0 +1,55 @@
+.home {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #8758ff;
+}
+
+.form_home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.insideform {
+    background-color: #1A1A40;
+    padding: 100px 100px;
+    border-radius: 5px;
+    width: 300px;
+
+}
+
+.form_home button {
+    width: 100%;
+    height: 30px;
+    background-color: #8758ff;
+    color: #fff;
+    font-size: medium;
+    border-radius: 5px;
+    margin-bottom: 10px;
+
+}
+
+
+.form_home h1 {
+    padding-bottom: 25px;
+    font-size: 35px;
+    text-align: center;
+    color: #fff;
+}
+
+@media only screen and (max-width : 500px) {
+
+    .insideform {
+        margin: 10px;
+    }
+
+    .insideform{
+        padding: 100px 27px;
+    }
+
+}
