@@ -1,7 +1,8 @@
 Todo List Web Application
 A simple web-based Todo List application built using React.js for the frontend and Node.js with Express.js and MongoDB for the backend.
 
-Screenshot
+![image](https://github.com/AbdulMoizKhan/Todo-App/assets/73781652/6d4cb733-1995-4831-bc7a-73a2830a6956)
+
 
 Table of Contents
 About
