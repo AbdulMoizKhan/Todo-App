@@ -1,70 +1,93 @@
-# Getting Started with Create React App
+Todo List Web Application
+A simple web-based Todo List application built using React.js for the frontend and Node.js with Express.js and MongoDB for the backend.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Screenshot
 
-## Available Scripts
+Table of Contents
+About
+Features
+Getting Started
+Prerequisites
+Installation
+Usage
+API Endpoints
+Contributing
+License
+About
+This project is a Todo List application that allows users to create, manage, and track their tasks. It provides a user-friendly interface with features like task filtering, task completion tracking, and user registration/login.
 
-In the project directory, you can run:
+Features
+User registration and login
+Create, edit, and delete tasks
+Mark tasks as completed
+Filter tasks by completion status
+Mobile-responsive design
+Getting Started
+Follow these instructions to set up and run the project on your local machine.
 
-### `npm start`
+Prerequisites
+Node.js installed
+MongoDB installed and running
+Installation
+Clone the repository:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+bash
+Copy code
+git clone https://github.com/yourusername/your-repo.git
+Navigate to the project directory:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+bash
+Copy code
+cd your-repo
+Install frontend dependencies:
 
-### `npm test`
+bash
+Copy code
+cd client
+npm install
+Install backend dependencies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+bash
+Copy code
+cd server
+npm install
+Create a .env file in the server directory with the following content:
 
-### `npm run build`
+bash
+Copy code
+MONGODB_URI=mongodb://localhost:27017/todo
+SECRET_KEY=your_secret_key
+Start the backend server:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+bash
+Copy code
+cd server
+npm start
+Start the frontend development server:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+bash
+Copy code
+cd client
+npm start
+Open your browser and visit http://localhost:3000 to use the application.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Usage
+Register a new user account or log in with an existing one.
+Create tasks by entering task descriptions and clicking "Add Task."
+Mark tasks as completed by toggling the checkbox.
+Use the filter options to view completed or uncompleted tasks.
+Edit or delete tasks using the provided buttons.
+Click the "Logout" button to log out.
+API Endpoints
+POST /register: Register a new user.
+POST /login: Log in with a registered user.
+GET /tasks: Retrieve user-specific tasks.
+POST /tasks: Create or update user-specific tasks.
+DELETE /tasks/:id: Delete a task by its ID.
+Contributing
+Contributions are welcome! If you'd like to contribute to this project, please follow the Contributing Guidelines.
 
-### `npm run eject`
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to customize the README further, add screenshots, or include any additional information that you think would be helpful for users.
