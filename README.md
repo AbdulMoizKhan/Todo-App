@@ -36,3 +36,11 @@ Follow these instructions to set up and run the project on your local machine.
 - [**MongoDB**](https://www.mongodb.com/try/download/community) installed and running
 
 
+**Usage**
+
+- Register a new user account or log in with an existing one.
+- Create tasks by entering task descriptions and clicking "Add Task."
+- Mark tasks as completed by toggling the checkbox.
+- Use the filter options to view completed or uncompleted tasks.
+- Edit or delete tasks using the provided buttons.
+- Click the "Logout" button to log out.
