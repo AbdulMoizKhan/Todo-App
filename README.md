@@ -35,7 +35,4 @@ Follow these instructions to set up and run the project on your local machine.
 - [**Node.js**](https://nodejs.org/) installed
 - [**MongoDB**](https://www.mongodb.com/try/download/community) installed and running
 
-### **Installation**
-
-1. Clone the repository:
 
